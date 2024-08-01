@@ -13,7 +13,17 @@
 			Your browser does not support the audio.
 		</audio>
 		<canvas></canvas>
-
+		<div id="imgTxt">
+			<span id="Txt"></span> <br />
+			<span id="tmp"></span>
+			<img id="img" src="">
+		</div>
+		<div id="heartTxt">
+			<span id="clickMe">Click!</span>
+			<div id="heart">
+				<button id="button" onclick="play()"></button>
+			</div>
+		</div>
 		<div id="content">
 			<h2 id="together">We have been together</h2>
 			<div id="timer">
@@ -28,6 +38,20 @@
         	<span id="txt1"></span> <br />
         	<span id="txt2"></span>
     	</div>		
+
+		<script >
+			var ok = 0;
+			var flag = 1;
+			var myImage = document.getElementById("img");
+			var myTxt = document.getElementById("Txt");
+			var imageArray = ["pic/pic1.png", "pic/pic2.png", "pic/pic3.png", "pic/pic4.png", "pic/pic5.png", "pic/pic6.png", 
+			"pic/pic7.png", "pic/pic8.png", "pic/pic9.png", "pic/pic10.png", "pic/pic11.png", "pic/pic12.png", "pic/pic13.png",
+			"pic/pic14.png", "pic/pic15.png", "pic/pic16.png"];
+			var imageIndex = 0;
+			var txtArray = [];
+			 var len = imageArray.length;
+			var t = 0;
+		</script>
 		
 		<script type="text/javascript" src="./js/stars.js"></script>
 		<script type="text/javascript" src="./js/typeWriter.js"></script>
