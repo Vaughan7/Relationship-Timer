@@ -1,7 +1,9 @@
 
 let i = 0;
 let text1 = "Hey Taliah";
-let text2 = "Happy International GF day and 5 Month Anniversary"
+let text2 = "Happy International Girlfriend's day and 5 Month Anniversary"
+let text3 = "I Love You <3"
+
 let speed = 100;
 
 function typeWriter(text, para){
