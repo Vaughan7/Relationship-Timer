@@ -39,10 +39,10 @@ function timer() {
 
 	// Inject into HTML
 	document.getElementById("total").innerHTML = totalDays;
-	document.getElementById("y").innerHTML = years;
-	document.getElementById("mo").innerHTML = months;
-	document.getElementById("w").innerHTML = weeks;
-	document.getElementById("d").innerHTML = days;
+	document.getElementById("y").innerHTML = y;
+	document.getElementById("mo").innerHTML = mo;
+	document.getElementById("w").innerHTML = w;
+	document.getElementById("d").innerHTML = d;
 	document.getElementById("h").innerHTML = h;
 	document.getElementById("m").innerHTML = m;
 	document.getElementById("s").innerHTML = s;
