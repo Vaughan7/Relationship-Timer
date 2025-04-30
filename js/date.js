@@ -7,7 +7,7 @@ function timer(){
 	var start = new Date(2024, 2, 1, 0, 18);
 	var now = new Date()
 	var t = new Date() - start;
-/*
+
 	//days
 	var d = Math.floor(t / 1000 / 60 / 60 / 24);
 
@@ -29,8 +29,8 @@ function timer(){
 		s = "0" + s;
 	}
 
-*/
 
+/*
 	// Step 1: Years and months
 	var y = now.getFullYear() - start.getFullYear();
 	var mo = now.getMonth() - start.getMonth();
@@ -59,6 +59,7 @@ function timer(){
 	document.getElementById("y").innerHTML = y;
 	document.getElementById("mo").innerHTML = mo;
 	document.getElementById("w").innerHTML = w;
+ */
 	document.getElementById("d").innerHTML = d;
 	document.getElementById("h").innerHTML = h;
 	document.getElementById("m").innerHTML = m;
