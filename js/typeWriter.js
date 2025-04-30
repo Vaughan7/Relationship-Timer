@@ -9,8 +9,8 @@ const formatted = today.toLocaleDateString('en-US', {
 
 let i = 0;
 let text1 = "Hey Taliah";
-let text2 = "Today's date is ${formatted} and I'm still loving you more than ever!❤️"
-let text3 = "I Love You <3"
+let text2 = `Today's date is ${formatted} and I'm still loving you more than ever!❤️`;
+let text3 = "I Love You ❤️"
 
 let speed = 100;
 
@@ -42,7 +42,7 @@ var typeInterval;
 		else if(ok == 1){
 			typeWriter(text2, "txt2");
 		}
-		else if (ok == 1){
+		else if (ok == 2){
 			typeWriter(text3, "txt3")
 		}
 	}, 100);
