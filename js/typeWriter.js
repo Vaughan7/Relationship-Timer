@@ -1,7 +1,15 @@
 
+const today = new Date();
+const formatted = today.toLocaleDateString('en-US', {
+      weekday: 'long',
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric'
+    });
+
 let i = 0;
 let text1 = "Hey Taliah";
-let text2 = "Today's Date is 123 and I'm still loving you more than ever!"
+let text2 = "Today's Date is ${formatted} and I'm still loving you more than ever!❤️"
 let text3 = "I Love You <3"
 
 let speed = 100;
