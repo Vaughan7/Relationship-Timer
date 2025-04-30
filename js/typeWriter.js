@@ -1,7 +1,7 @@
 
 let i = 0;
 let text1 = "Hey Taliah";
-let text2 = "Happy International Girlfriend's day and 5 Month Anniversary"
+let text2 = "Today's Date is 123 and I'm still loving you more than ever!"
 let text3 = "I Love You <3"
 
 let speed = 100;
@@ -33,6 +33,9 @@ var typeInterval;
 		}
 		else if(ok == 1){
 			typeWriter(text2, "txt2");
+		}
+		else if (ok == 1){
+			typeWriter(text3, "txt3")
 		}
 	}, 100);
 //};
