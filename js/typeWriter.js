@@ -9,7 +9,7 @@ const formatted = today.toLocaleDateString('en-US', {
 
 let i = 0;
 let text1 = "Hey Taliah";
-let text2 = "Today's Date is ${formatted} and I'm still loving you more than ever!❤️"
+let text2 = "Today's date is ${formatted} and I'm still loving you more than ever!❤️"
 let text3 = "I Love You <3"
 
 let speed = 100;
