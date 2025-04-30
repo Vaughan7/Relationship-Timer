@@ -15,7 +15,7 @@ let text3 = "I Love You ❤️"
 let speed = 100;
 
 function typeWriter(text, para){
-	if(ok == 2){
+	if(ok == 3){
 		clearInterval(typeInterval);
 	}
 	if(i < text.length){
